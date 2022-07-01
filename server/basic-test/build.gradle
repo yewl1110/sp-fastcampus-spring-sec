@@ -1,0 +1,12 @@
+
+
+dependencies {
+
+    dependencies {
+        implementation("$boot:spring-boot-starter-web")
+        
+        // comp-common-utils 프로젝트의 의존성 가져옴
+        implementation project(":comp-common-utils") 
+    }
+}
+
